@@ -38,3 +38,29 @@ figure.foto-legenda figcaption {
 figure.foto-legenda:hover figcaption{
     opacity: 1;
 }
+
+/* Formatação Menu */ 
+
+nav#menu {
+    display: block;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase ;
+    position: absolute;
+    /*Position: absoluta, deixa o bloco livre pelo site, já postion: relative, eu só consigo aulterar a posição dentro do proprio bloco */
+    top: 0px;
+    left: 400px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+}
