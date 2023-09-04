@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+ul#album-fotos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: white;
+    border: 5px solid white;
+    box-shadow: 2px 2px 5px black;
+}
+
+ul#album-fotos li span {
+    opacity: 0;
+    padding-bottom: 200px;
+}
+
+ul#album-fotos li span:hover {
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+ul#album-fotos li#foto01 {
+    background: url(../_imagens/galeria-01.jpg);
+    
+}
+
+ul#album-fotos li#foto02 {
+    background: url(../_imagens/galeria-02.jpg);
+}
+
+ul#album-fotos li#foto03 {
+    background: url(../_imagens/galeria-03.jpg);
+}
+
+ul#album-fotos li#foto04 {
+    background: url(../_imagens/galeria-04.jpg);
+}
+
+ul#album-fotos li#foto05 {
+    background: url(../_imagens/galeria-05.jpg);
+}
+
+ul#album-fotos li#foto06 {
+    background: url(../_imagens/galeria-06.jpg);
+}
+
