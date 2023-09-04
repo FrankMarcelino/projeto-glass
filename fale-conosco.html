@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tudo sobre o Google Glass</title>
     <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/form.css">
    
 </head>
 <script language="javascript" src="_javascript/funcoes.js"></script>
@@ -30,39 +31,56 @@
                 </ul>
             </nav>
         </header>
-
-Fale Conosco > Contato
-Formulário de Contato
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
-
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
-        - Masculino
-        - Feminino
-    Data de Nascimento:
-
-Endereço do Usuário
-    Logradouro:
-    Número:
-    Estado:
-    Cidade:
-
-Mensagem do Usuário
-    Grau de Urgência:
-    Mensagem:
-
-Quero um Google Glass
-    Gostaria de adquirir um Google Glass quando disponível
-    Cor:
-    Quantidade:
-    Preço Total: R$
-
-
-[BOTÃO ENVIAR]
+    <article>
+        <header id="cabecalho-artigo">
+            <hgroup>
+                <h3>Glass > Contato</h3>
+                <h1>Formulário de Contato</h1>
+                <h2>por Gustavo Guanabara</h2>
+                <h3  class="direita">Atualizado em 01/Maio/2013</h3>
+            </hgroup>
+        </header>
+        <forms>
+            <fieldset id="usuario">
+                <legend>Identificação do Usuário</legend>
+                    <p>Nome:<input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"></p>                   
+                    <p>Senha:<input type="password" name="tSenha" id="cSenha" size="20" minlength="8" maxlength="30" placeholder="Digite sua Senha"></p>
+                    <p>E-mail:<input type="email" name="tEmail" id="cEmail" size="
+                        20" maxlength="40" placeholder="Digite seu E-mail"></p>
+                    <fieldset id="Sexo">
+                        <legend>Sexo:</legend>               
+                        <input type="radio" name="tSexo" id="cMasculino">Masculino
+                        <input type="radio" name="tSexo" id="cFeminino">Feminino
+                    </fieldset>
+                    <p>Data de Nascimento:</p>
+            </fieldset>
+            
+            <fieldset id="endereco">
+                <legend>Endereço do Usuário</legend>
+                    Logradouro:
+                    Número:
+                    Estado:
+                    Cidade:
+            </fieldset>
+            
+            <fieldset id="mensagem">
+                <legend>Mensagem do Usuário</legend>
+                    Grau de Urgência:
+                    Mensagem:
+            </fieldset>
+            
+            <fieldset id="pedido">
+                <legend>Quero um Google Glass</legend>
+                    Gostaria de adquirir um Google Glass quando disponível
+                    Cor:
+                    Quantidade:
+                    Preço Total: R$
+            </fieldset>
+            
+            
+            [BOTÃO ENVIAR]
+        </forms>
+    </article>
 
 <footer id="rodape">
     <p>
