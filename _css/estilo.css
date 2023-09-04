@@ -17,7 +17,7 @@ body {
 }
 
 div#interface {
-    width: 900px;
+    width: 950px;
     background-color: white;
     margin: auto;
     padding: 10px;
@@ -123,6 +123,8 @@ nav#menu li {
     padding: 10px;
     margin: 2px;
     transition: background-color .5;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.219);
 }
 
 nav#menu li:hover {
@@ -143,7 +145,7 @@ nav#menu a:hover {
 
 section#corpo {
     display: block;
-    width: 400px;
+    width: 550px;
     float: left;
     border-right: 1px solid #606060;
     padding: 10px;
