@@ -17,7 +17,7 @@ body {
 }
 
 div#interface {
-    width: 950px;
+    width: 1000px;
     background-color: white;
     margin: auto;
     padding: 10px;
@@ -225,10 +225,14 @@ table#tabelaspec td.cd {
 
 }
 
+video#Filme1 {
+    width: 550px;
+}
+
 
 aside#lateral {
     display: block;
-    width: 350px;
+    width: 400px;
     float: right;
     background-color: #dddddd;
     padding: 5px;

@@ -60,5 +60,6 @@ p {
 
 label {
     margin: 5px;
+  background-color: rgba(red, green, blue, alpha);
 }
 
